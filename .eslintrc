@@ -1,0 +1,23 @@
+{  
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "linebreak-style": ["off"],
+    "comma-dangle": ["off"],
+    "react/sort-comp": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "max-len": ["error", 125]
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  }
+}

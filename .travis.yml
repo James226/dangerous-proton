@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6"
+dist: trusty
+sudo: required
+script: |-
+  ./build.sh
+cache:
+  yarn: true
+  directories:
+    - node_modules
